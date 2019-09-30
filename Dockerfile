@@ -58,9 +58,6 @@ RUN wagtail start ko
 RUN pip install -r /www/ko/requirements.txt
 RUN mv /www/ko/ko/settings/base.py /www/ko/ko/settings/base.py.back
 COPY ./config/base.py /www/ko/ko/settings/base.py
-RUN python /www/ko/manage.py migrate
-RUN python /www/ko/manage.py collectstatic 
-RUN echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('ko', 'njnuko@163.com', '231231')" | python /www/ko/manage.py shell
 RUN chown -R ko:ko /www
 
 CMD ["/usr/bin/supervisord"]
