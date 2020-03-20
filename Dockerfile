@@ -6,10 +6,7 @@ LABEL maintainer="Chi Shen <njnuko@163.com>"
 RUN mkdir /www
 COPY . /www
 WORKDIR /www
-RUN mkdir static
-RUN mkdir media
 RUN useradd ko
-
 
 #change the apt source list
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.back
@@ -21,10 +18,6 @@ RUN apt-get install nginx vim openssh-server net-tools -y
 #config the ssh server
 RUN mv /etc/ssh/sshd_config /etc/ssh/sshd_config.back
 COPY ./config/sshd_config /etc/ssh
-
-
-RUN mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.back
-COPY ./config/nginx.conf /etc/nginx
 
 RUN echo "root:1" | chpasswd
 # Removed the section that breaks pip installations
@@ -43,8 +36,8 @@ EXPOSE 22
 # Remove default configuration from Nginx
 RUN rm /etc/nginx/sites-enabled/default
 # Copy the modified Nginx conf
-COPY ./config/ko.conf /etc/nginx/sites-enabled/
-
+RUN rm -rf /etc/nginx/sites-enable
+RUN ln -s /www/nginx /etc/nginx/sites-enable
 
 
 # Install Supervisord
@@ -54,10 +47,6 @@ RUN apt-get update && apt-get install -y supervisor \
 COPY ./config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 #install ko 
-RUN wagtail start ko
-RUN pip install -r /www/ko/requirements.txt
-RUN mv /www/ko/ko/settings/base.py /www/ko/ko/settings/base.py.back
-COPY ./config/base.py /www/ko/ko/settings/base.py
 RUN chown -R ko:ko /www
 
 CMD ["/usr/bin/supervisord"]
