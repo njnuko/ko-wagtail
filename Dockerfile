@@ -34,10 +34,9 @@ EXPOSE 443
 EXPOSE 22
 # Make NGINX run on the foreground
 # Remove default configuration from Nginx
-RUN rm /etc/nginx/sites-enabled/default
 # Copy the modified Nginx conf
-RUN rm -rf /etc/nginx/sites-enable
-RUN ln -s /www/nginx /etc/nginx/sites-enable
+RUN rm -rf /etc/nginx/sites-enabled
+RUN ln -s /www/nginx /etc/nginx/sites-enabled
 
 
 # Install Supervisord

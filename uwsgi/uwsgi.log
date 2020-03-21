@@ -1,0 +1,318 @@
+Sat Mar 21 13:52:07 2020 - *** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 21 13:52:07 2020] ***
+Sat Mar 21 13:52:07 2020 - compiled with version: 6.3.0 20170516 on 20 March 2020 09:08:58
+Sat Mar 21 13:52:07 2020 - os: Linux-4.14.24-qnap #1 SMP Fri Feb 14 01:13:38 CST 2020
+Sat Mar 21 13:52:07 2020 - nodename: d1394a328849
+Sat Mar 21 13:52:07 2020 - machine: x86_64
+Sat Mar 21 13:52:07 2020 - clock source: unix
+Sat Mar 21 13:52:07 2020 - pcre jit disabled
+Sat Mar 21 13:52:07 2020 - detected number of CPU cores: 4
+Sat Mar 21 13:52:07 2020 - current working directory: /www
+Sat Mar 21 13:52:07 2020 - writing pidfile to uwsgi/njnuko_cn.pid
+Sat Mar 21 13:52:07 2020 - detected binary path: /usr/local/bin/uwsgi
+Sat Mar 21 13:52:07 2020 - chdir() to /www
+Sat Mar 21 13:52:07 2020 - your processes number limit is 63351
+Sat Mar 21 13:52:07 2020 - your memory page size is 4096 bytes
+Sat Mar 21 13:52:07 2020 - detected max file descriptor number: 65536
+Sat Mar 21 13:52:07 2020 - lock engine: pthread robust mutexes
+Sat Mar 21 13:52:07 2020 - thunder lock: disabled (you can enable it with --thunder-lock)
+Sat Mar 21 13:52:07 2020 - uwsgi socket 0 bound to UNIX address uwsgi/njnuko_cn.sock fd 3
+Sat Mar 21 13:52:07 2020 - Python version: 3.6.10 (default, Feb 26 2020, 16:32:17)  [GCC 6.3.0 20170516]
+Sat Mar 21 13:52:07 2020 - Python main interpreter initialized at 0x55c38bfba630
+Sat Mar 21 13:52:07 2020 - python threads support enabled
+Sat Mar 21 13:52:07 2020 - your server socket listen backlog is limited to 100 connections
+Sat Mar 21 13:52:07 2020 - your mercy for graceful operations on workers is 60 seconds
+Sat Mar 21 13:52:07 2020 - mapped 1750220 bytes (1709 KB) for 16 cores
+Sat Mar 21 13:52:07 2020 - *** Operational MODE: preforking+threaded ***
+Sat Mar 21 21:52:08 2020 - WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c38bfba630 pid: 28 (default app)
+Sat Mar 21 21:52:08 2020 - mountpoint  already configured. skip.
+Sat Mar 21 21:52:08 2020 - *** uWSGI is running in multiple interpreter mode ***
+Sat Mar 21 21:52:08 2020 - spawned uWSGI master process (pid: 28)
+Sat Mar 21 21:52:08 2020 - spawned uWSGI worker 1 (pid: 38, cores: 4)
+Sat Mar 21 21:52:08 2020 - spawned uWSGI worker 2 (pid: 42, cores: 4)
+Sat Mar 21 21:52:08 2020 - spawned uWSGI worker 3 (pid: 46, cores: 4)
+Sat Mar 21 21:52:08 2020 - spawned uWSGI worker 4 (pid: 50, cores: 4)
+Sat Mar 21 21:52:08 2020 - *** Stats server enabled on 127.0.0.1:19192 fd: 18 ***
+[pid: 50|app: 0|req: 1/1] 10.0.3.1 () {50 vars in 833 bytes} [Sat Mar 21 21:52:11 2020] GET / => generated 145 bytes in 697 msecs (HTTP/1.1 500) 5 headers in 154 bytes (2 switches on core 0)
+[pid: 50|app: 0|req: 2/2] 10.0.3.1 () {50 vars in 779 bytes} [Sat Mar 21 21:52:11 2020] GET /favicon.ico => generated 145 bytes in 74 msecs (HTTP/1.1 500) 5 headers in 154 bytes (2 switches on core 1)
+[pid: 50|app: 0|req: 3/3] 10.0.3.1 () {50 vars in 833 bytes} [Sat Mar 21 21:52:13 2020] GET / => generated 145 bytes in 81 msecs (HTTP/1.1 500) 5 headers in 154 bytes (2 switches on core 2)
+[pid: 38|app: 0|req: 1/4] 10.0.3.1 () {50 vars in 779 bytes} [Sat Mar 21 21:52:13 2020] GET /favicon.ico => generated 145 bytes in 678 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+[pid: 50|app: 0|req: 4/5] 10.0.3.1 () {50 vars in 833 bytes} [Sat Mar 21 21:58:19 2020] GET / => generated 145 bytes in 81 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 3)
+[pid: 46|app: 0|req: 1/6] 10.0.3.1 () {50 vars in 779 bytes} [Sat Mar 21 21:58:19 2020] GET /favicon.ico => generated 145 bytes in 658 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+[pid: 46|app: 0|req: 2/7] 10.0.3.1 () {50 vars in 833 bytes} [Sat Mar 21 21:58:20 2020] GET / => generated 145 bytes in 95 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 3)
+[pid: 38|app: 0|req: 2/8] 10.0.3.1 () {50 vars in 779 bytes} [Sat Mar 21 21:58:20 2020] GET /favicon.ico => generated 145 bytes in 90 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 2)
+[pid: 38|app: 0|req: 3/9] 10.0.3.1 () {50 vars in 833 bytes} [Sat Mar 21 21:58:21 2020] GET / => generated 145 bytes in 78 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 3)
+[pid: 38|app: 0|req: 4/10] 10.0.3.1 () {50 vars in 779 bytes} [Sat Mar 21 21:58:21 2020] GET /favicon.ico => generated 145 bytes in 70 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 1)
+Sat Mar 21 13:59:30 2020 - *** Starting uWSGI 2.0.18 (64bit) on [Sat Mar 21 13:59:30 2020] ***
+Sat Mar 21 13:59:30 2020 - compiled with version: 6.3.0 20170516 on 20 March 2020 09:08:58
+Sat Mar 21 13:59:30 2020 - os: Linux-4.14.24-qnap #1 SMP Fri Feb 14 01:13:38 CST 2020
+Sat Mar 21 13:59:30 2020 - nodename: d1394a328849
+Sat Mar 21 13:59:30 2020 - machine: x86_64
+Sat Mar 21 13:59:30 2020 - clock source: unix
+Sat Mar 21 13:59:30 2020 - pcre jit disabled
+Sat Mar 21 13:59:30 2020 - detected number of CPU cores: 4
+Sat Mar 21 13:59:30 2020 - current working directory: /www
+Sat Mar 21 13:59:30 2020 - writing pidfile to uwsgi/njnuko_cn.pid
+Sat Mar 21 13:59:30 2020 - detected binary path: /usr/local/bin/uwsgi
+Sat Mar 21 13:59:30 2020 - chdir() to /www
+Sat Mar 21 13:59:30 2020 - your processes number limit is 63351
+Sat Mar 21 13:59:30 2020 - your memory page size is 4096 bytes
+Sat Mar 21 13:59:30 2020 - detected max file descriptor number: 65536
+Sat Mar 21 13:59:30 2020 - lock engine: pthread robust mutexes
+Sat Mar 21 13:59:30 2020 - thunder lock: disabled (you can enable it with --thunder-lock)
+Sat Mar 21 13:59:30 2020 - uwsgi socket 0 bound to UNIX address uwsgi/njnuko_cn.sock fd 3
+Sat Mar 21 13:59:30 2020 - Python version: 3.6.10 (default, Feb 26 2020, 16:32:17)  [GCC 6.3.0 20170516]
+Sat Mar 21 13:59:30 2020 - Python main interpreter initialized at 0x5642da60fef0
+Sat Mar 21 13:59:30 2020 - python threads support enabled
+Sat Mar 21 13:59:30 2020 - your server socket listen backlog is limited to 100 connections
+Sat Mar 21 13:59:30 2020 - your mercy for graceful operations on workers is 60 seconds
+Sat Mar 21 13:59:30 2020 - mapped 1750220 bytes (1709 KB) for 16 cores
+Sat Mar 21 13:59:30 2020 - *** Operational MODE: preforking+threaded ***
+Sat Mar 21 21:59:31 2020 - WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5642da60fef0 pid: 22 (default app)
+Sat Mar 21 21:59:31 2020 - mountpoint  already configured. skip.
+Sat Mar 21 21:59:31 2020 - *** uWSGI is running in multiple interpreter mode ***
+Sat Mar 21 21:59:31 2020 - spawned uWSGI master process (pid: 22)
+Sat Mar 21 21:59:31 2020 - spawned uWSGI worker 1 (pid: 36, cores: 4)
+Sat Mar 21 21:59:31 2020 - spawned uWSGI worker 2 (pid: 37, cores: 4)
+Sat Mar 21 21:59:31 2020 - spawned uWSGI worker 3 (pid: 41, cores: 4)
+Sat Mar 21 21:59:31 2020 - spawned uWSGI worker 4 (pid: 48, cores: 4)
+Sat Mar 21 21:59:31 2020 - *** Stats server enabled on 127.0.0.1:19192 fd: 18 ***
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column wagtailcore_page.locked_at does not exist
+LINE 1: ...ore_page"."expired", "wagtailcore_page"."locked", "wagtailco...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "wagtailcore_page.locked".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/middleware.py", line 13, in process_request
+    request.site = Site.find_for_request(request)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/models.py", line 116, in find_for_request
+    return get_site_for_hostname(hostname, port)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/sites.py", line 35, in get_site_for_hostname
+    'root_page'
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column wagtailcore_page.locked_at does not exist
+LINE 1: ...ore_page"."expired", "wagtailcore_page"."locked", "wagtailco...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "wagtailcore_page.locked".
+
+[pid: 48|app: 0|req: 1/1] 112.0.52.253 () {56 vars in 1861 bytes} [Sat Mar 21 21:59:49 2020] GET / => generated 137300 bytes in 263 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column wagtailcore_page.locked_at does not exist
+LINE 1: ...ore_page"."expired", "wagtailcore_page"."locked", "wagtailco...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "wagtailcore_page.locked".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/middleware.py", line 13, in process_request
+    request.site = Site.find_for_request(request)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/models.py", line 116, in find_for_request
+    return get_site_for_hostname(hostname, port)
+  File "/usr/local/lib/python3.6/site-packages/wagtail/core/sites.py", line 35, in get_site_for_hostname
+    'root_page'
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column wagtailcore_page.locked_at does not exist
+LINE 1: ...ore_page"."expired", "wagtailcore_page"."locked", "wagtailco...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "wagtailcore_page.locked".
+
+[pid: 48|app: 0|req: 2/2] 112.0.52.253 () {56 vars in 1801 bytes} [Sat Mar 21 21:59:49 2020] GET /favicon.ico => generated 137350 bytes in 601 msecs (HTTP/1.1 500) 5 headers in 157 bytes (1 switches on core 1)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.6/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1025, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+blog_extras
+cache
+i18n
+l10n
+log
+static
+tz
+wagtailadmin_tags
+wagtailcore_tags
+wagtailembeds_tags
+wagtailimages_tags
+wagtailui_tags
+wagtailuserbar
+wagtailusers_tags
+[pid: 37|app: 0|req: 1/3] 112.0.52.253 () {56 vars in 1861 bytes} [Sat Mar 21 22:03:33 2020] GET / => generated 159845 bytes in 956 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 41|app: 0|req: 1/4] 112.0.52.253 () {56 vars in 1801 bytes} [Sat Mar 21 22:03:35 2020] GET /favicon.ico => generated 2628 bytes in 552 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.6/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/usr/local/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 1025, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+blog_extras
+cache
+i18n
+l10n
+log
+static
+tz
+wagtailadmin_tags
+wagtailcore_tags
+wagtailembeds_tags
+wagtailimages_tags
+wagtailui_tags
+wagtailuserbar
+wagtailusers_tags
+[pid: 41|app: 0|req: 2/5] 112.0.52.253 () {56 vars in 1861 bytes} [Sat Mar 21 22:05:47 2020] GET / => generated 173489 bytes in 612 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 3)
+[pid: 41|app: 0|req: 3/6] 112.0.52.253 () {56 vars in 1861 bytes} [Sat Mar 21 22:06:20 2020] GET / => generated 18970 bytes in 500 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 48|app: 0|req: 3/7] 10.0.3.1 () {56 vars in 1140 bytes} [Sat Mar 21 22:18:22 2020] GET / => generated 18970 bytes in 373 msecs (HTTP/1.1 200) 6 headers in 320 bytes (2 switches on core 2)

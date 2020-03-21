@@ -1,0 +1,48 @@
+2020/03/20 13:44:33 [I] [service.go:234] login to server success, get run id [78ba14105ed12b07], server udp port [0]
+2020/03/20 13:44:33 [I] [proxy_manager.go:144] [78ba14105ed12b07] proxy added: [njnukos]
+2020/03/20 13:44:33 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 13:44:33 [I] [control.go:153] [njnukos] start proxy success
+2020/03/20 14:01:21 [I] [service.go:234] login to server success, get run id [9bc16992ede61769], server udp port [0]
+2020/03/20 14:01:21 [I] [proxy_manager.go:144] [9bc16992ede61769] proxy added: [njnukos]
+2020/03/20 14:01:21 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 14:01:21 [I] [control.go:153] [njnukos] start proxy success
+2020/03/20 14:05:40 [I] [service.go:234] login to server success, get run id [d9a6e5b5b1f2c8fa], server udp port [0]
+2020/03/20 14:05:40 [I] [proxy_manager.go:144] [d9a6e5b5b1f2c8fa] proxy added: [njnukos]
+2020/03/20 14:05:40 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 14:05:40 [I] [control.go:153] [njnukos] start proxy success
+2020/03/20 14:11:23 [I] [service.go:234] login to server success, get run id [c92ffa02034ad3d0], server udp port [0]
+2020/03/20 14:11:23 [I] [proxy_manager.go:144] [c92ffa02034ad3d0] proxy added: [njnukos]
+2020/03/20 14:11:23 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 14:11:23 [I] [control.go:153] [njnukos] start proxy success
+2020/03/20 14:19:36 [I] [service.go:234] login to server success, get run id [8952f2bafe349ebc], server udp port [0]
+2020/03/20 14:19:36 [I] [proxy_manager.go:144] [8952f2bafe349ebc] proxy added: [njnukos]
+2020/03/20 14:19:36 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 14:19:36 [I] [control.go:153] [njnukos] start proxy success
+2020/03/20 14:26:33 [I] [service.go:234] login to server success, get run id [159fb2c086ae5303], server udp port [0]
+2020/03/20 14:26:33 [I] [proxy_manager.go:144] [159fb2c086ae5303] proxy added: [njnukos]
+2020/03/20 14:26:33 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/20 14:26:33 [I] [control.go:153] [njnukos] start proxy success
+2020/03/21 14:14:46 [I] [service.go:234] login to server success, get run id [102ad6ce2041397a], server udp port [0]
+2020/03/21 14:14:46 [I] [proxy_manager.go:144] [102ad6ce2041397a] proxy added: [njnukos]
+2020/03/21 14:14:46 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/21 14:14:46 [I] [control.go:153] [njnukos] start proxy success
+2020/03/21 14:14:54 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:54 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:54 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:54 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:56 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:56 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:57 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:14:57 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:10 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:12 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:34 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:34 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:38 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:15:38 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:16:01 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:16:01 [E] [proxy.go:552] [njnukos] connect to local service [127.0.0.1:10223] error: dial tcp 127.0.0.1:10223: connect: connection refused
+2020/03/21 14:18:17 [I] [service.go:234] login to server success, get run id [60849bbbd79e3c68], server udp port [0]
+2020/03/21 14:18:17 [I] [proxy_manager.go:144] [60849bbbd79e3c68] proxy added: [njnukos]
+2020/03/21 14:18:17 [I] [service.go:119] admin server listen on 127.0.0.1:7400
+2020/03/21 14:18:17 [I] [control.go:153] [njnukos] start proxy success
