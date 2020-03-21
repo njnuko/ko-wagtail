@@ -35,8 +35,8 @@ EXPOSE 22
 # Make NGINX run on the foreground
 # Remove default configuration from Nginx
 # Copy the modified Nginx conf
-RUN rm -rf /etc/nginx/sites-enabled
-RUN ln -s /www/nginx /etc/nginx/sites-enabled
+RUN rm -rf /etc/nginx/nginx.conf
+COPY ./config/nginx.conf /etc/nginx
 
 
 # Install Supervisord
